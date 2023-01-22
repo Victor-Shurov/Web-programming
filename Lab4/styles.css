@@ -1,0 +1,30 @@
+table, th, td, th {
+  border: 1px solid;
+}
+td, th {
+  width: 200px;
+}
+table{
+  height: calc(100vh - 200px);
+}
+tr{
+  height: 60px;
+}
+.btn-primary{
+  margin-bottom: 20px;
+  background-color: #4CAF50;
+  border: none;
+}
+.btn-primary:hover{
+  background-color: #45a070;
+}
+
+.title-box{
+  margin: 20px auto;
+  width: 50%;
+}
+.title{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
